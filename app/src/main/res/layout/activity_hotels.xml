@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Hotels">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="HOTEL FORTUNE MUMBAI 36/38, near metro Cinema, 1st, 3rd Marine Street, Dhobi Talao, Marine Lines, Mumbai" />
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="HOTEL SAPNA MARINE WRVH+63C, near Metro Cinema, 3rd Marine Street, 1st Bhatwadi, Dhobi Talao, Marine Lines, Mumbai" />
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="WEST END HOTEL | A HERITAGE BOUTIQUE | MARINE LINES | MUMBAI W next to Bombay hospital, 45, next to Bombay hospital, New Marine Lines, Mumbai" />
+                <RadioButton
+                    android:id="@+id/radio4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="HOTEL TOURISTER Welcome Hindu Hotel, Lamington Road H Vitthalbhai Patel Road, Lamington Road, Grant Road, Mumbai" />
+                <RadioButton
+                    android:id="@+id/radio5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="HOTEL GIRGAON PALACE H47-F, Khotachi Wadi, Near Majestic Building, Charni Road East, Ambewadi, Girgaon, Mumbai" />
+                <RadioButton
+                    android:id="@+id/radio6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="PANDURANG WADI/DOMINION INDUSTRIES Pandurang Wadi, Mangal Wadi, Girgaon, Mumbai" />
+
+                <RadioButton
+                    android:id="@+id/radio8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="ASHA GUEST HOUSE A Near Jain Hospital, S. V. Sovani Road, 1st Floor, Nikadwari Lane, Charni Road (E), Girgaon, Mumbai" />
+                <RadioButton
+                    android:id="@+id/radio9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="HOTEL REGAL PALACE H Tata Road No 1, Near Roxy Cinema, Sopariwala Estate, Opera House, Mumbai" />
+                <RadioButton
+                    android:id="@+id/radio10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="PANDHARINATH CHAWL No.2 D 18, 35, Mugbhat Cross Lane, Jitekar Wadi, Mangal Wadi, Girgaon, Mumbai" />
+                <RadioButton
+                    android:id="@+id/radio11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="OYO 9748 HOTEL GIRGAON PALACE 47 F, Khotachi Wadi Lane, Mumbai" />
+                <RadioButton
+                    android:id="@+id/radio12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="REVIVAL opp. Chowpatty, 39B, Chowpatty Seaface Near R Charni Road station (W, opp. Chowpatty, beach, Gamdevi, Mumbai" />
+                <RadioButton
+                    android:id="@+id/radio13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp"
+                    android:text="KHADAYTA BHUVAN K Mumbai 213, Raja Rammohan Roy Road, Kotachi Wadi, Bhatawadekar Wadi, Ambewadi, Girgaon," />
+
+                <Button
+                    android:id="@+id/book"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book NOW"
+                    android:layout_gravity="center"/>
+            </RadioGroup>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

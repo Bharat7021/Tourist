@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.touristguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TOURISTGUIDE">
+        <activity
+            android:name=".Dalhousie"
+            android:exported="false" />
+        <activity
+            android:name=".Kullu"
+            android:exported="false" />
+        <activity
+            android:name=".Manali"
+            android:exported="false" />
+        <activity
+            android:name=".Shimla"
+            android:exported="false" />
+        <activity
+            android:name=".Bikaner"
+            android:exported="false" />
+        <activity
+            android:name=".Udaipur"
+            android:exported="false" />
+        <activity
+            android:name=".Jaipur"
+            android:exported="false" />
+        <activity
+            android:name=".Jodhpur"
+            android:exported="false" />
+        <activity
+            android:name=".Surat"
+            android:exported="false" />
+        <activity
+            android:name=".Dwarka"
+            android:exported="false" />
+        <activity
+            android:name=".Vadodara"
+            android:exported="false" />
+        <activity
+            android:name=".Ahemdabad"
+            android:exported="false" />
+        <activity
+            android:name=".Hotels"
+            android:exported="false" />
+        <activity
+            android:name=".Aurangabad"
+            android:exported="false" />
+        <activity
+            android:name=".Nashik"
+            android:exported="false" />
+        <activity
+            android:name=".Mumbai"
+            android:exported="false" />
+        <activity
+            android:name=".Himachal"
+            android:exported="false" />
+        <activity
+            android:name=".Rajasthan"
+            android:exported="false" />
+        <activity
+            android:name=".Gujarat"
+            android:exported="false" />
+        <activity
+            android:name=".Pune"
+            android:exported="false" />
+        <activity
+            android:name=".Maharashtra"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

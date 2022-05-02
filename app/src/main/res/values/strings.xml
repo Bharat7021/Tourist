@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tourist Guide</string>
+    <string name="infogate">
+        <br> Gateway of India is synonymous with the name, Munbai. Built for commemorating King George V visit to India in 1911, this spectacular arch in basalt also symbolised might of British triumph in India could be completed only by 1924. </br>
+        <br>Place Address:</br>
+        <br>Apollo Bandar, Colaba, Mumbai, Maharashtra 400001, India</br>
+        <br>Timing: Open 24 Hrs</br>
+        <br>Entry fees: Free</br>
+    </string>
+    <string name="infomar">
+        <br>Marine Drive, also called the Queen’s Necklace, is one of the most easily recognizable landmarks in Mumbai. This arc-shaped bay-side boulevard lining the Arabian Sea in South Mumbai is arguably the best spot to watch beautiful sunsets and indulge in leisurely walks.</br>
+        <br>Place Address:</br>
+        <br>Netaji Subhash Chandra Bose Road, Chowpathy, Mumbai, Maharashtra 400007,India</br>
+        <br>Timing: Open 24 Hrs</br>
+        <br>Entry Fees: Free</br>
+    </string>
+</resources>

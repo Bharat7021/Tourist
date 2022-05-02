@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maharashtra">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-94dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Select City to Visit"
+                android:textColor="#0E185F"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/mum"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/mumbai_foreground" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/black"
+                android:text="Mumbai"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/pune"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/pune_foreground" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/black"
+                android:text="Pune"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/nasik"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/nashik_foreground" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/black"
+                android:text="Nashik"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/aur"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/aurangabad_foreground" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/black"
+                android:text="Aurangabad"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
